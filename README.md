@@ -3,7 +3,30 @@ beego example application
 
 ## Useful features
 
-TBD
+### apidoc
+
+```
+$ bee generate docs
+```
+
+### migration
+
+generate migration schema
+
+```
+$ bee generate migration todo
+```
+
+apply migration schema to DB
+
+```
+$ bee migrate
+```
+
+## Memos
+
+* can not use sqlite3?
+    * while migrating, it fails.
 
 ## Todo
 
@@ -14,6 +37,7 @@ TBD
 * api endpoint testing
 * dockerizing & passing environment variable via docker-compose.yml
 * separate external or internal apis
+* jwt authentication
 * and so on ...
 
 ## Resources

@@ -19,6 +19,12 @@
   version = "v1.11.1"
 
 [[projects]]
+  name = "github.com/go-sql-driver/mysql"
+  packages = ["."]
+  revision = "72cd26f257d44c1114970e19afddcd812016007e"
+  version = "v1.4.1"
+
+[[projects]]
   branch = "master"
   name = "github.com/gopherjs/gopherjs"
   packages = ["js"]
@@ -29,6 +35,12 @@
   packages = ["."]
   revision = "b4936e06046bbecbb94cae9c18127ebe510a2cb9"
   version = "v4.20"
+
+[[projects]]
+  name = "github.com/mattn/go-sqlite3"
+  packages = ["."]
+  revision = "c7c4067b79cc51e6dfdcef5c702e74b1e0fa7c75"
+  version = "v1.10.0"
 
 [[projects]]
   name = "github.com/smartystreets/assertions"
@@ -60,6 +72,12 @@
   revision = "057139ce5d2bdbe6fe73c53679e24e9cf007f637"
 
 [[projects]]
+  name = "google.golang.org/appengine"
+  packages = ["cloudsql"]
+  revision = "e9657d882bb81064595ca3b56cbe2546bbabf7b1"
+  version = "v1.4.0"
+
+[[projects]]
   name = "gopkg.in/yaml.v2"
   packages = ["."]
   revision = "51d6538a90f86fe93ac480b35f37b2be17fef232"
@@ -68,6 +86,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "a33e7c077fb2626cf8fc1255aac9d88da598b79ec870717cc00aefcb9bff4b68"
+  inputs-digest = "c77f11a865f6100a8faccec27f7d6321b36e0572f55033682445c6f62b49b168"
   solver-name = "gps-cdcl"
   solver-version = 1
